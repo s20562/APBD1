@@ -17,9 +17,12 @@ public class MathUtils
         double sum = 0;
         foreach (var num in numbers)
         {
-            sum += num;
+           
+            sum += num * 2;
         }
 
         return sum / numbers.Length;
     }
+
+
 }
