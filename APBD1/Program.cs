@@ -15,6 +15,7 @@ public class MathUtils
             throw new ArgumentException("Array cannot be null or empty.");
 
         double sum = 0;
+        
         foreach (var num in numbers)
         {
             sum += num;
