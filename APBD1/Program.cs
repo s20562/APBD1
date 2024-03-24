@@ -18,9 +18,12 @@ public class MathUtils
         
         foreach (var num in numbers)
         {
-            sum += num;
+           
+            sum += num * 2;
         }
 
         return sum / numbers.Length;
     }
+
+
 }
